@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    height: 97%;
+}
+
+body {
+    font-family: 'Roboto';
+	font-weight: 400;
+	margin: 0;
+	background: #4f667a;
+	height: 100%
+}
+
+body {
+	background: #4f667a;
+    font-size: 16px;
+}
+
+.content-wrapper {
+    display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center
+}
+
+table {
+    border-collapse: collapse;
+	border-spacing: 0;
+	box-shadow: 0 0 100px rgba(0,0,0,.2)
+}
+
+table tr th {
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 13px 20px;
+    font-weight: 400;
+}
+
+table tr td {
+    background-color: #acacac;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+table tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+footer {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+table tr th#title {
+    font-weight: 700;
+    padding: 10px 90px 10px 90px;
+}
+
+table tr th#school {
+    font-size: 12px;
+    padding: 10px 0px 0px 0px;
+    font-weight: 700;
+}
+
+table tr td img {
+    padding: 0px;
+    max-height: 25px;
+    margin-top: 4px;
+}
+
